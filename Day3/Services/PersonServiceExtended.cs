@@ -5,58 +5,31 @@ namespace Day3.Services
     public class PersonServiceExtended : IPersonService
     {
         private static List<PersonModel> _people = new List<PersonModel>{
-            new PersonModel{
-                FirstName = "Tien",
-                LastName  = "Nguyen Minh",
-                Gender = "Female",
-                DateOfBirth = new DateTime(1997,12,26),
-                PhoneNumber="",
-                BirthPlace = "Ha Noi",
-                IsGraduated = false
-            },
-            new PersonModel{
-                FirstName = "Tien",
-                LastName  = "Nguyen Minh",
-                Gender = "Hai Duong",
-                DateOfBirth = new DateTime(1997,12,26),
-                PhoneNumber="",
-                BirthPlace = "Ha Noi",
-                IsGraduated = false
-            },
-            new PersonModel{
-                FirstName = "Chien",
-                LastName  = "Lao Cai",
+             new PersonModel{
+                FirstName = "Loc",
+                LastName  = "Nguyen Thanh",
                 Gender = "Male",
-                DateOfBirth = new DateTime(1998,12,26),
-                PhoneNumber="",
-                BirthPlace = "Thai nguyen",
+                DateOfBirth = new DateTime(2000,01,21),
+                PhoneNumber="0961564730",
+                BirthPlace = "Bac Ninh",
                 IsGraduated = false
             },
             new PersonModel{
-                FirstName = "Bao",
-                LastName  = "Thai nguyen",
+                FirstName = "Hung",
+                LastName  = "Vu Trong",
                 Gender = "Male",
-                DateOfBirth = new DateTime(1999,12,26),
-                PhoneNumber="",
+                DateOfBirth = new DateTime(2000,07,06),
+                PhoneNumber="00223344885",
                 BirthPlace = "Lao Cai",
                 IsGraduated = false
             },
             new PersonModel{
-                FirstName = "Hai",
-                LastName  = "Yen Bai",
-                Gender = "Male",
-                DateOfBirth = new DateTime(2000,12,26),
-                PhoneNumber="",
-                BirthPlace = "Ha Noi",
-                IsGraduated = false
-            },
-            new PersonModel{
-                FirstName = "Tu",
-                LastName  = "Nguyen Minh",
+                FirstName = "Linh",
+                LastName  = "Nguyen Nhat",
                 Gender = "Female",
-                DateOfBirth = new DateTime(2001,12,26),
-                PhoneNumber="",
-                BirthPlace = "Hai Duong",
+                DateOfBirth = new DateTime(2000,07,24),
+                PhoneNumber="21354354885",
+                BirthPlace = "Ha Noi",
                 IsGraduated = false
             },
         };
